@@ -191,6 +191,7 @@
 }
 
 .form__label_type_checkbox {
+  display: flex;
   justify-content: center;
 }
 
