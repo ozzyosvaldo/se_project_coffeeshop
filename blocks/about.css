@@ -1,0 +1,28 @@
+.about {
+  background-color: #0a2850;
+}
+
+.about__title {
+  color: #ffffff;
+  padding: 100px 0 0 80px;
+  max-width: 251px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.about__paragraph {
+  color: #ffffff;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0 0 20px 0;
+}
+.about__content {
+  padding: 119px 80px 173px 0;
+  max-width: 660px;
+}
