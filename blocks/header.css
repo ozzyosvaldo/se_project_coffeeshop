@@ -6,6 +6,9 @@
   max-height: 800px;
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
 
 .header__image {
@@ -60,5 +63,5 @@
   font-weight: 500;
 
   line-height: 20px;
-  color: #838383;
+  color: #6f6f6f;
 }

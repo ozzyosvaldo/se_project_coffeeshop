@@ -33,8 +33,11 @@
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  line-height: 60px;
+  line-height: 30px;
   color: #838383;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
 }
 
 .form__button {
@@ -48,4 +51,6 @@
   line-height: 60px;
   color: #ffffff;
   background-color: #2f80ed;
+  border: 0;
+  border-radius: 4px;
 }
