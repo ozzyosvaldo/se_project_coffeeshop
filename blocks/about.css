@@ -4,10 +4,10 @@
   }
   50% {
     opacity: 0.6;
-    transform: scale(1.5);
   }
   100% {
     opacity: 0;
+    transform: scale(1.5);
   }
 }
 
@@ -40,7 +40,6 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  padding: 0 0 20px 0;
   margin-top: 0%;
   margin-bottom: 0%;
 }
@@ -48,6 +47,9 @@
   padding: 119px 80px 173px 0;
   max-width: 660px;
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .about__circle {
