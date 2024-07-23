@@ -14,7 +14,8 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 20px;
+  margin-top: 32px;
 }
 
 .form__label_type_checkbox {
@@ -25,7 +26,7 @@
 
 .form__input {
   display: block;
-  padding: 0;
+  padding: 8px;
   box-sizing: border-box;
   width: 100%;
   margin-top: 8px;
@@ -53,12 +54,13 @@
   color: #ffffff;
   background-color: #2f80ed;
   border: 0;
-  border-radius: 4px;
   margin-top: 32px;
   height: 60px;
-  transition: color 0.5s;
+  border-radius: 4px;
+  opacity: 1;
+  transition: opacity 0.5s ease;
 }
 
 .form__button:hover {
-  color: black;
+  opacity: 0.7;
 }
